@@ -13,7 +13,7 @@ type Props = {
 
 const CreateTabIcon = ({ color, size, focused }: Props) => {
   return (
-    <View className="rounded-lg p-2 bg-light-itemBackground dark:bg-dark-itemBackground">
+    <View className="rounded-lg py-2 px-4 bg-light-itemBackground dark:bg-dark-itemBackground">
       <Ionicons
         name={focused ? "add" : "add-outline"}
         color={color}
